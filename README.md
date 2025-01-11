@@ -1,5 +1,6 @@
 ## Todo App - Backend 
-I created the TodoApp Backend Using Fastapi - APIRouter, pydantic, HTTPException, APIRouter... Sqlite3 and JWT.<br> 
+I created the TodoApp Backend Using Fastapi - APIRouter, pydantic, HTTPException, APIRouter... Sqlite3 and JWT.
+<br> 
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
