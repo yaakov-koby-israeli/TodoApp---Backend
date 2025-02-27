@@ -69,17 +69,21 @@ To-Do App is a task management application built with **FastAPI** and **SQLAlche
 
 - **GET `/user/`** - View user profile
 - **POST `/user/password`** - Change password
+- **PUT `/todo/{todo_id}`** - Update a to-do
+- **DELETE `/todo/{todo_id}`** - Delete a to-do
 
 ### To-Do Management
 
-- **PUT `/todo/{todo_id}`** - Update a to-do
-- **DELETE `/todo/{todo_id}`** - Delete a to-do
+- **GET `/todo/{todo_id}`** - Retrieve a specific to-do
+- **POST `/todo/`** - Create a new to-do
+- **GET `/todos/`** - Retrieve all to-dos for the logged-in user
 
 ## Security Measures
 
 - **JWT Authentication**: Secure token-based user authentication.
 - **Role-Based Access Control**: Restricts admin and user functionalities.
 - **Password Hashing**: User passwords are securely hashed using `passlib`.
+
 
 ## :hammer_and_wrench: Languages and Tools :
 <div>
